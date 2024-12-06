@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        div{
+            border: 1px solid rgba(124, 6, 243, 0.281);
+            width: 30vw;
+            height: max-content;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        form{
+         
+           text-align: center;
+           display: flex;
+           width: 80%;
+           gap: 10px;
+           margin: 0 auto;
+           flex-direction: column;
+        }
+        label{
+            text-align: left;
+            font-size: 20px;
+            color: rgba(129, 5, 245, 0.628);
+           
+        }
+        input{
+            padding: 10px 10px 10px 20px;
+            border-radius: 10px;
+            outline: none;
+            color: rgb(127, 6, 240);
+            border: 1px solid rgba(135, 4, 242, 0.331);
+        }
+       
+       
+        button{
+            padding: 10px;
+            width: 50%;
+            margin: 0 auto;
+            background-color: rgba(50, 1, 247, 0.116);
+            border: 1px solid rgba(0, 0, 0, 0.142);
+            margin-top: 25px;
+            border-radius: 30px;
+            color: blueviolet;
+            font-size: 2vmax;
+        }
+        button:hover{
+            background-color: blueviolet;
+            color: white;
+        }
+        input::placeholder{
+            font-size: 12px;
+            color: rgba(149, 6, 244, 0.32);
+        }
+       
+       
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1 style="color: rgba(128, 3, 244, 0.514);">Login</h1>
+      <form action="">
+        <label for="">Name</label>
+        <input type="text" required placeholder="enter name" />
+        <label for="">E-mail</label>
+        <input type="email" required placeholder="enter email" />
+        <label for="">Password</label>
+        <input type="password"  required placeholder="password"/>
+        <button>submit</button>
+      </form>
+    </div>
+  </body>
+</html>
